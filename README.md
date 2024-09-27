@@ -24,7 +24,7 @@ Get the best Quality of streaming performance by hosting it on VPS, here's the s
 sudo apt update && apt upgrade -y
 sudo apt install git curl python3-pip ffmpeg -y
 pip3 install -U pip
-git clone https://github.com/aryazakaria01/PornHub # clone the repo.
+git clone https://github.com/yaemiko12345/ph4 # clone the repo.
 cd PornHub
 pip3 install -U -r requirements.txt
 cp sample.env .env # use vim to edit ENVs
