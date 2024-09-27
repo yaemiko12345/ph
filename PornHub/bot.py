@@ -24,7 +24,7 @@ class PornHub(Client):
             bot_token=TOKEN,
             plugins=dict(root="PornHub.plugins"),
             in_memory=True,
-            skip_updates=False,
+            # skip_updates=False  # Argumen ini dihapus karena tidak dikenali
         )
 
     async def start(self):
